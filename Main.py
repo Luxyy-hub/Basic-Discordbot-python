@@ -1,10 +1,6 @@
 import discord
 import os
 import requests
-import time
-import json 
-from replit import db
-from keep_alive import keep_alive
 
 client = discord.Client()
 
