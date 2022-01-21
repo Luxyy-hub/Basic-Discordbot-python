@@ -1,7 +1,7 @@
 import discord
 import os
 import requests
-from keep_alive import KeepAlive
+from keep_alive import keep_alive
 
 client = discord.Client()
 
@@ -17,5 +17,5 @@ async def on_ready():
     if message.content.startswith('?hello'):
       await message.channel.send('Hi!')
       
-keep_alive
+keep_alive()
 client.run('BOT-TOKEN')
