@@ -17,5 +17,8 @@ async def on_ready():
     if message.content.startswith('?hello'):
       await message.channel.send('Hi!')
       
+    if message.content.startswith('?goodMorning')
+      await message.channel.send('Morning!')
+      
 keep_alive()
 client.run('BOT-TOKEN')
